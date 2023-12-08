@@ -1,0 +1,35 @@
+/* style.css */
+
+body.custom-theme {
+    --primary-color: #637E76;  /* Warna latar belakang */
+    --secondary-color: #C69774;  /* Warna teks dan aksen */
+    --text-color: #637E76;  /* Warna teks utama */
+    --background-color: #F8DFD4;  /* Warna latar belakang utama */
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.custom-theme h1.alert-primary {
+    background-color: var(--primary-color);
+    color: #F0ECE5;
+}
+
+body.custom-theme .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+body.custom-theme .btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+body.custom-theme .table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--background-color);
+}
+
+body.custom-theme .table th,
+body.custom-theme .table td {
+    border-color: var(--background-color);
+}
